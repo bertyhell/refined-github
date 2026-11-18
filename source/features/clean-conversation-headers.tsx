@@ -96,11 +96,6 @@ async function cleanPrHeader(headRef: HTMLElement): Promise<void> {
 	const summaryRow = closestElement('.d-flex[class*="summaryContainer"]', headRef);
 	summaryRow.classList.add('rgh-clean-conversation-headers');
 
-	if (isStickyHeader(summaryRow)) {
-		// Add class here to avoid duplicating the selectors into the CSS file
-		summaryRow.classList.add('rgh-sticky-pr-header');
-	}
-
 	const base = $('a[data-component="BranchName"]', summaryRow);
 
 	// Add class here to avoid duplicating the selectors into the CSS file
