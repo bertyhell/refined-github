@@ -42,14 +42,6 @@
 		}
 	}
 
-	/* Hide the default base branch in sticky headers */
-	&.rgh-sticky-pr-header .rgh-base-branch:not(.rgh-non-default-branch) {
-		&,
-		~ .rgh-arrow {
-			display: none;
-		}
-	}
-
 	/* TODO [2027-01-01]: Drop after legacy PR files view is removed */
 	/* Fixes vertical alignment of base branch dropdown #5598 */
 	.commit-ref-dropdown {
