@@ -417,3 +417,4 @@ We're happy to receive suggestions and contributions, but be aware this is a hig
 ## Links
 
 - [Contribution guide](https://github.com/refined-github/refined-github/wiki/Contributing)
+
